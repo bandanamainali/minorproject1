@@ -1,0 +1,73 @@
+body{
+    background-image:url(./photos/bla.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    list-style-type: none;
+   text-align: center;
+    
+}
+a:link{
+    color:white;
+    list-style-type: none;
+    display:inline-block;
+   
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:coral;
+    font-size: large;
+}
+
+
+#first{
+ color:white; 
+text-align: center;
+padding-left: 250px;
+
+}
+#second{
+     color:white; 
+    padding-left: 150px;
+}
+#third{
+     color:white; 
+    padding-left: 150px;
+}
+#login{
+    padding-left:150px;
+}
+#profile{
+    padding-left:150px;
+}
+#search{
+    padding-left: 350px;
+    padding-top:50px;
+}
+#ser{
+  width:100px;;
+}
+ #book{
+    width:500px;
+ }  
+ #heading{
+    text-align: center;
+    font-size:50px;
+    color:white;
+    font-family:Cursive;
+ } 
+ .head{
+    position:fixed;
+ }
+.image{
+    padding:30px;
+}
+#next{
+    color:brown;
+}

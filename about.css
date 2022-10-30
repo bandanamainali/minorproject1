@@ -1,0 +1,75 @@
+.home{
+    min-height: 70vh;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/clever_lands.jpg) no-repeat;
+    animation:slider 20s infinite linear;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .home .content{
+    text-align: center;
+    width: 60rem;
+ }
+ 
+ .home .content h3{
+    font-size: 5.5rem;
+    color:white;
+    text-transform: uppercase;
+ }
+ 
+ .home .content p{
+    font-size:1.8rem;
+    color:lightslategray;
+    padding:1rem 0;
+    line-height: 1.5;
+ }
+ .heading{
+    min-height: 30vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    background: url(../images/heading-bg.webp) no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+ @keyframes slider{
+    0%{background: url(images/freefall.jpg);}
+    25%{background: url(images/red_queen.jpg);}
+    50%{background: url(photos/becoming.jpg);}
+    75%{background: url(photos/rise.jpg);}
+
+ }
+ .heading h3{
+    font-size: 5rem;
+    color:black;
+    text-transform: uppercase;
+ }
+ 
+ .heading p{
+    font-size: 2.5rem;
+    color:lightblue;
+ }
+ 
+ .heading p a{
+    color:purple;
+ }
+ 
+ .heading p a:hover{
+    text-decoration: underline;
+ }
+ 
+ @keyframes fadeIn {
+    0%{
+       transform: translateY(1rem);
+       opacity: .2s;
+    }
+ }
+ 
+ 

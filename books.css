@@ -1,0 +1,30 @@
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    color:white;
+}
+    #download{
+    border:1px solid white;
+    background-color: green;
+    width:10%;
+    text-align: center;
+    height:30px;
+    margin-left: 100px;
+    text-decoration-color: beige;
+}
+/* .des{
+    float: right;
+    height:500px;
+    width:500px;
+    margin-top: 100px;
+    margin-right:400px;
+    font-style: italic;
+    font-size: 18px;;
+} */
+#download{
+    text-decoration: none;
+    background-color:pink;
+    color:brown;
+}
+

@@ -1,0 +1,29 @@
+.bcnav{
+    color:black;
+    margin-bottom: 40px;
+    margin-top:30px;
+}
+body{
+    background-color: #888;
+}
+.des{
+    float: right;
+    height:100px;
+    width:500px;
+    margin-top: 10px;
+    margin-right:400px;
+    font-style: italic;
+    font-size: 18px;;
+}
+.return{
+    text-decoration: none;
+    color:pink
+}
+#downloads{
+    text-decoration: none;
+    padding-left: 120px;
+    color:brown;
+    background-color: pink;
+}
+
+    

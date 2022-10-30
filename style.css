@@ -1,0 +1,84 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.formcontainer{
+    min-height: 100vh;
+ 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:2rem;
+
+}
+.formcontainer form{
+    padding:2rem;
+    width:50rem;
+    border:1px solid black;
+    border-radius: .5rem;
+    
+   
+    background-color: plum;
+    text-align: center;
+}
+.formcontainer form h3{
+    font-size:2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color:black;
+}
+.formcontainer form .box{
+    width:100%;
+    border-radius: .5rem;
+    background-color:white;
+    
+    padding:1.2rem .1rem;
+    font-size:1.8rem;
+    color:black;
+    margin:1rem 0;
+}
+.formcontainer #low{
+    font-size: 15px;
+}
+.formcontainer .btn{
+    background-color: purple;
+    color:white;
+    font-size: 15px;
+}
+.formcontainer p a{
+    text-decoration: none;
+}
+.formcontainer p a:hover{
+    text-decoration: underline;
+
+}
+.message{
+    position:sticky;
+    top:0;
+    margin:0 auto;
+    max-width:1200px;
+    background-color:white ;
+    color:plum;
+    padding:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:10000;
+    gap:1.5rem;
+
+
+}
+.message span{
+    font-size:30px;
+    color:plum;
+}
+.message i{
+    cursor:pointer;
+    color:red;
+    font-size:2.5rem;
+
+}
+.message i:hover{
+    transform: rotate(90deg);
+}
+
